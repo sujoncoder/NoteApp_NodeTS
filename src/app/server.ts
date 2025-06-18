@@ -8,7 +8,7 @@ const PORT = 5000;
 
 async function main() {
     try {
-        await mongoose.connect('mongodb+srv://NoteApp:iamsujonnoteapp@nextlevel.fdygipl.mongodb.net/?retryWrites=true&w=majority&appName=NextLevel');
+        await mongoose.connect('mongodb+srv://NoteApp:iamsujonnoteapp@nextlevel.fdygipl.mongodb.net/NoteApp?retryWrites=true&w=majority&appName=NoteApp');
 
         console.log("Database connect successfully 😎")
 
